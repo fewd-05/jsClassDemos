@@ -56,10 +56,10 @@ Greater than or equal >=
 
 4- Assignment
 Assignment                  =       x=4
-Addition assignment         +=      x = x+1 =>  x+=2
-Subtraction Assignment      -=      x = x-2 =>  x-=2
-Multiplication assignment   *=      x = x*2 => x*=2
-Division assignment         /=      x = x/2 => x/=2
+Addition assignment         +=      x = x+1     =>  x+=2
+Subtraction Assignment      -=      x = x-2     =>  x-=2
+Multiplication assignment   *=      x = x*2     => x*=2
+Division assignment         /=      x = x/2     => x/=2
 */
 
 /* Conditional Statements

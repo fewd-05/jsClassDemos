@@ -34,3 +34,10 @@ do {
 for (let counter1 = 0; counter1 < 3; counter1++) {
   document.write(`I am a ${counter1} number-counter and I love to count!<br>`);
 }
+
+// scope?
+
+// decrement while loop
+let myMarks = 10;
+
+// student on-own prac : print from 10 to 0 in a while loop
