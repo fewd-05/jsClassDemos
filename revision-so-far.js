@@ -17,10 +17,10 @@
 -Null
 2-Non-Primitive Data
 -Object */
-
+let variableS = 10;
 //String
 const firstName = "Mary";
-const secondName = "Jane";
+const secondName = 'Jane';
 const thirdName = `John`;
 
 //Interpolation
@@ -45,17 +45,17 @@ OR          ||
 NOT         !
 
 3- Comparison
-Equal               ==
-Strict equal        ===
-Not equal           !=
-Not strict equal    !==
-Less than           <
-Less than or equal  <=
-Greater than        >
-Greater than or equal >=
+Equal                   ==
+Strict equal            ===
+Not equal               !=
+Not strict equal        !==
+Less than               <
+Less than or equal      <=
+Greater than            >
+Greater than or equal   >=
 
 4- Assignment
-Assignment                  =       x=4
+Assignment                  =       x = 4
 Addition assignment         +=      x = x+1     =>  x+=2
 Subtraction Assignment      -=      x = x-2     =>  x-=2
 Multiplication assignment   *=      x = x*2     => x*=2
@@ -64,5 +64,6 @@ Division assignment         /=      x = x/2     => x/=2
 
 /* Conditional Statements
 It allows us control of the execution of our code.
-
 */
+
+
