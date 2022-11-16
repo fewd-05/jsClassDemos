@@ -43,22 +43,6 @@ for (let i = 0; i < listOfSweets.length; i++) {
  
 document.getElementById("list").innerHTML = text
  
-//Create functions that will display the list of sweets and hide it
-function displayListOfSweets() {
-   let listOfSweets = ["lollipop", "ice-cream", "candy", "caramel", "marshmallow"]
- 
-   let text = ""
-   for (let i = 0; i < listOfSweets.length; i++) {
-       text += `<li>${listOfSweets[i]}</li>`
-   }
-   document.getElementById("list").innerHTML = text
-   document.getElementById("list").style.display = "block"
-}
- 
-function displayNone() {
-   document.getElementById("list").style.display = "none"
-}
- 
 //Functions
 //keyword function, function name, parentheses, curly brackets, block of code to be executed (when called), and calling the function
  
@@ -111,11 +95,24 @@ function printMessage() {
    let nameValue = inputValue.value
    document.getElementById("greeting").innerText = "Hello, " + nameValue  + "!"
 }
- 
- 
- 
- 
+
 //Activity - create a function that will print "Hello, how are you" once users click on "Say hello" button
 function printMsg2() {
    document.getElementById("message").innerText = "Hello, how are you?"
 }
+
+//Create functions that will display the list of sweets and hide it
+function displayListOfSweets() {
+    let listOfSweets = ["lollipop", "ice-cream", "candy", "caramel", "marshmallow"]
+  
+    let text = ""
+    for (let i = 0; i < listOfSweets.length; i++) {
+        text += `<li>${listOfSweets[i]}</li>`
+    }
+    document.getElementById("list").innerHTML = text
+    document.getElementById("list").style.display = "block"
+ }
+  
+ function displayNone() {
+    document.getElementById("list").style.display = "none"
+ }
