@@ -1,0 +1,17 @@
+.redText {
+    color: red;
+}
+
+.changeWhiteText {
+    color: white;
+    font-size: 24px;
+    font-family: "Helvetica";
+}
+
+.redBorders {
+    border: 3px solid red;
+}
+
+#greenDiv {
+    background-color: lightgreen;
+}
