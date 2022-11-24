@@ -1,0 +1,27 @@
+.heading {
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list {
+    border: 2px dotted black;
+}
+
+.band {
+    padding: 5px;
+}
+
+.container {
+    background-color: palegoldenrod;
+    padding: 15px;
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#schedule {
+    background-image: url('./images/sydney.jpg');
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+}
