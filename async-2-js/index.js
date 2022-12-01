@@ -19,6 +19,14 @@ async function get() {
     return value;
 }
 
+// ASYNC GET METHOD
+// async function get() {
+//     let res = await fetch("http://localhost:3000/tasks");
+//     let resJson = await res.json();
+//     console.log(resJson);
+//     return resJson;
+// }
+
 // POST METHOD
 async function post(taskName) {
     const tasks = await get();
