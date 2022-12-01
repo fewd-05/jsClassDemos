@@ -1,31 +1,31 @@
-// promise example
-let groceriesDone = false;
+// // promise example
+// let groceriesDone = false;
 
-const iHaveDoneGroceries = new Promise((resolve,reject) => {
-    if (groceriesDone) {
-        resolve('You can finally watch some TV!');
-    } else {
-        reject('You need to do groceries!');
-    }
-});
+// const iHaveDoneGroceries = new Promise((resolve,reject) => {
+//     if (groceriesDone) {
+//         resolve('You can finally watch some TV!');
+//     } else {
+//         reject('You need to do groceries!');
+//     }
+// });
 
-iHaveDoneGroceries.then(function(res) {
-    console.log(res);
-}).catch(function(penguin) {
-    console.log(penguin)
-})
+// iHaveDoneGroceries.then(function(res) {
+//     console.log(res);
+// }).catch(function(penguin) {
+//     console.log(penguin)
+// })
 
 // fetch example
-console.log("start");
+// console.log("start");
 
-fetch('https://api.chucknorris.io/jokes/random?category=travel')
-.then(function(res){
-    return res.json();
-}).then(function(res) {
-    console.log(res);
-});
+// fetch('https://api.chucknorris.io/jokes/random?category=travel')
+// .then(function(res){
+//     return res.json();
+// }).then(function(res) {
+//     console.log(res);
+// });
 
-console.log("end");
+// console.log("end");
 
 // fetch("https://api.imgflip.com/get_memes")
 // .then((res) => {return res.json()})
@@ -35,5 +35,10 @@ console.log("end");
 //     meme.setAttribute('src', url);
 //     document.body.appendChild(meme);
 // });
+
+
+   
+
+
 
 
